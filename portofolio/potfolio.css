@@ -1,0 +1,156 @@
+@media screen and (min-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  .bigtitles {
+    padding-left: 50px;
+  }
+  .h1_title {
+    width: 80%;
+    font-size: 3vw;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .divider {
+    display: flex;
+  }
+
+  .section1 {
+    width: 25vw;
+    background-color: #adb5bd;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2 {
+    width: 75vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+  }
+  .titleimg {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    position: absolute;
+    padding-right: 50px;
+  }
+
+  .titleimg_h3 {
+    color: #dee2e6;
+    font-size: 1vw;
+    margin-bottom: 0;
+  }
+
+  .titleimg_h2 {
+    font-size: 3vw;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: black;
+  }
+
+  .titleimg_h2:hover {
+    color: white;
+    background-color: black;
+    transform: scale(120%);
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+    transform: translatex(-1vw);
+}
+
+  .square{
+    width: 50px;
+    /* height: 20px; */
+    background-color: black;
+    animation-name: lines;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+  }
+@keyframes lines {
+  0%{
+    opacity: 0%;
+    transform: translateY(-1rem);
+  }
+
+  50%{
+    opacity: 100%;
+    transform: translateY(0.5rem);
+  }
+
+  100%{
+    opacity: 0%;
+    transform: translateY(5rem);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
+  
+  .divider{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section1{
+    margin-top: 300px;
+    text-align: center;
+  }
+
+  .h1_title{
+    font-size: 2em;
+  }
+
+  .section2{
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+  }
+  .titleimg {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+  }
+
+  .titleimg_h3 {
+    color: #dee2e6;
+    font-size: 2vw;
+    margin-bottom: 0;
+  }
+
+  .titleimg_h2 {
+    font-size: 4vw;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: black;
+  }
+}
+}
