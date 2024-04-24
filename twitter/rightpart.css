@@ -1,0 +1,57 @@
+.rightsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    padding-left: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.trendscapsule{
+    background-color: rgb(33, 32, 32);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Post{
+    padding-left: 10PX;
+}
+
+.title{
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.linkcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    height: fit-content;
+    border: white 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+figcaption{
+    padding-left: 10px;
+}
+
+.imgpost{
+    height: 100px;
+    object-fit: contain;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
