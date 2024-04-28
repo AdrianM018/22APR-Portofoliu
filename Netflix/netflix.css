@@ -1,0 +1,72 @@
+@media screen and (min-width: 1023px){
+header{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px;
+    justify-items: center;
+    color: white;
+}
+
+.netflixtoplogo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    object-fit: cover;
+    width: 40%;
+    max-height: 100%;
+    margin-left: 150px;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.lefttopoptions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 20px;
+}
+
+.dropdown{
+    margin-right: 20px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.dropdown > button{
+    color: white;
+    padding: 4px 15px 4px 15px;
+}
+
+.signin{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    align-items: center;
+    padding: 7px 12px 7px 12px;
+}
+
+.backgroundheader{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    object-fit: cover;
+    width: 100%;
+    max-height: 60%;
+}
+}
