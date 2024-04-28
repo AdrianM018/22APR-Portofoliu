@@ -1,14 +1,19 @@
-@media screen and (min-width: 1023px){
-header{
+@media screen and (min-width: 1023px) {
+  body {
+    background-color: gray;
+  }
+
+  header {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 100px;
+    grid-template-rows: 100px 500px;
     justify-items: center;
     color: white;
-}
+    margin-bottom: 2px;
+  }
 
-.netflixtoplogo{
+  .netflixtoplogo {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -19,9 +24,9 @@ header{
     margin-left: 150px;
     z-index: 2;
     margin-top: 10px;
-}
+  }
 
-.lefttopoptions{
+  .lefttopoptions {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -32,32 +37,93 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
     margin-top: 20px;
-}
+  }
 
-.dropdown{
+  .dropdown {
     margin-right: 20px;
     background-color: none;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+  }
 
-}
-
-.dropdown > button{
+  .dropdown > button {
     color: white;
     padding: 4px 15px 4px 15px;
-}
+  }
 
-.signin{
+  .signin {
     border: none;
     border-radius: 5px;
     background-color: red;
     color: white;
     align-items: center;
     padding: 7px 12px 7px 12px;
-}
+  }
 
-.backgroundheader{
+  .text-center {
+    display: relative;
+    margin-top: 200px;
+    margin-bottom: 5px;
+    z-index: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .text-center > h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+
+  #membership {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .d-sm-flex {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .d-sm-flex > input,
+  button {
+    color: white;
+    border-radius: 5px;
+  }
+
+  #email {
+    background-color: rgba(0, 0, 0, 0.274);
+    border: rgba(255, 255, 255, 0.678) solid 1px;
+    width: 400px;
+    height: 50px;
+  }
+
+  #email::placeholder {
+    color: white;
+    padding: 10px;
+  }
+
+  .getstarted {
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1.5em;
+  }
+
+  .backgroundheader {
     z-index: 1;
     position: absolute;
     display: flex;
@@ -65,8 +131,9 @@ header{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    object-fit: cover;
+    object-fit:cover;
     width: 100%;
-    max-height: 60%;
-}
+    height: 60%;
+    filter: brightness(50%);
+  }
 }
