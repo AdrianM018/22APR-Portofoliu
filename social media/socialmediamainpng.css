@@ -1,0 +1,69 @@
+/* colors: #A0AECD  #000000 */
+
+@media screen and (min-width: 992px){
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    body{
+        height: 100vh;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    #searchbar{
+        border: solid 2px #A0AECD;
+        border-radius: 20px;
+        width: 50%;
+        padding: 5px;
+    }
+
+     main{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 10rem auto;
+     }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .mainpage{
+        display: grid;
+        grid-template-rows:  auto;
+        grid-template-columns: 100%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .carousel{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .posts{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
