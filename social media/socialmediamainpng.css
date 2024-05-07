@@ -111,7 +111,7 @@
         width: 100%;
         padding: 10px 0px 0px 10px;
         display: grid;
-        grid-template-rows:  auto 1fr;
+        grid-template-rows:  1fr auto;
         grid-template-columns: 100%;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -121,13 +121,70 @@
         grid-row-start: 1;
         grid-row-end: 1;
         width: 100%;
-        overflow-x: scroll;
+        height: 100%;
         margin-bottom: 30px;
+        gap: 2%;
+        animation: slider 20s infinite;
+        animation-timing-function: ease-in-out;
     }
+    
+    aside article:hover{
+        transform: scale(105%);
+    }
+
+    @keyframes slider {
+        0%{
+            transform: translateX(0px);
+        }
+
+        10%{
+            animation-fill-mode:backwards;
+            transition-duration: 5s;
+        }
+
+        20%{
+            transform: translateX(-400px);
+        }
+
+        30%{
+            animation-fill-mode: forwards;
+            transition-duration: 5s;
+        }
+        40%{
+            transform: translateX(-800px);
+        }
+
+        50%{
+            animation-fill-mode: forwards;
+            transition-duration: 5s;
+        }
+        60%{
+            transform: translateX(-1200px);
+        }
+
+        70%{
+            animation-fill-mode: forwards;
+            transition-duration: 5s;
+        }
+        80%{
+            transform: translateX(-1600px);
+        }
+
+        90%{
+            animation-fill-mode: forwards;
+            transition-duration: 5s;
+        }
+
+        100%{
+            transform: translateX(0px);
+        }
+    }
+
     .images{
         object-fit: cover;
         position: relative;
         border-radius: 20px;
+        margin-top: 20px;
         width: 400px;
         height: 200px;
         border: #800020 1px solid;
@@ -135,8 +192,10 @@
 
     .img-overlay{
         position: absolute;
-        padding: 15px;
+        padding: 30px 0px 0px 5px;
         color: white;
+        height: 200px;
+        width: max-content;
     }
 
     .img-overlay > h3{
