@@ -13,8 +13,8 @@
 }
 
 .colors{
-    background-color: black;
-    color: azure;
+    background-color: rgb(223, 217, 217);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -79,11 +79,8 @@
     }
 
      main{
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 13rem auto;
+        width: 100vw;
         margin-top: 60px;
-        gap: 3%;
         color: white;
         overflow: unset;
      }
@@ -108,77 +105,74 @@
     }
 
     .mainpage{
-        width: 100%;
-        padding: 10px 0px 0px 10px;
-        display: grid;
-        grid-template-rows:  1fr auto;
-        grid-template-columns: 100%;
-        grid-column-start: 2;
-        grid-column-end: 3;
+        padding: 0px 0px 0px 10px;
+        margin-left: 250px;
     }
 
     aside{
-        grid-row-start: 1;
-        grid-row-end: 1;
         width: 100%;
         height: 100%;
         margin-bottom: 30px;
-        gap: 2%;
+        
+    }
+
+    .asideanim{
         animation: slider 20s infinite;
         animation-timing-function: ease-in-out;
+        gap: 1%;
     }
     
-    aside article:hover{
+    .asideanim article:hover{
         transform: scale(105%);
     }
 
-    @keyframes slider {
-        0%{
-            transform: translateX(0px);
-        }
+        @keyframes slider {
+            0%{
+                transform: translateX(0px);
+            }
 
-        10%{
-            animation-fill-mode:backwards;
-            transition-duration: 5s;
-        }
+            10%{
+                animation-fill-mode:backwards;
+                transition-duration: 5s;
+            }
 
-        20%{
-            transform: translateX(-400px);
-        }
+            20%{
+                transform: translateX(-400px);
+            }
 
-        30%{
-            animation-fill-mode: forwards;
-            transition-duration: 5s;
-        }
-        40%{
-            transform: translateX(-800px);
-        }
+            30%{
+                animation-fill-mode: forwards;
+                transition-duration: 5s;
+            }
+            40%{
+                transform: translateX(-800px);
+            }
 
-        50%{
-            animation-fill-mode: forwards;
-            transition-duration: 5s;
-        }
-        60%{
-            transform: translateX(-1200px);
-        }
+            50%{
+                animation-fill-mode: forwards;
+                transition-duration: 5s;
+            }
+            60%{
+                transform: translateX(-1200px);
+            }
 
-        70%{
-            animation-fill-mode: forwards;
-            transition-duration: 5s;
-        }
-        80%{
-            transform: translateX(-1600px);
-        }
+            70%{
+                animation-fill-mode: forwards;
+                transition-duration: 5s;
+            }
+            80%{
+                transform: translateX(-1600px);
+            }
 
-        90%{
-            animation-fill-mode: forwards;
-            transition-duration: 5s;
-        }
+            90%{
+                animation-fill-mode: forwards;
+                transition-duration: 5s;
+            }
 
-        100%{
-            transform: translateX(0px);
+            100%{
+                transform: translateX(0px);
+            }
         }
-    }
 
     .images{
         object-fit: cover;
@@ -209,10 +203,49 @@
     }
 
     .posts{
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .posts > article{
+        margin-right: 60px;
+    }
+
+    .hidecontent > div{
+        visibility: hidden;
+    }
+
+    .hidecontent:hover > div{
+        visibility:visible;
+        animation-timing-function: ease-in-out;
+    }
+
+    .postimg{
+        object-fit: cover;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .postimg-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        padding: 5px 0px 0px 5px;
+        color: white;
+        height: 190px;
+        width: 190px;
+        width: max-content;
+    }
+
+    .postimg-overlay:hover{
+        visibility: visible;
+    }
+
+    .postimg-overlay > h3{
+        margin: 0;
     }
 }
