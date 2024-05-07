@@ -132,7 +132,7 @@
             }
 
             10%{
-                animation-fill-mode:backwards;
+                transform: translateX(0px);
                 transition-duration: 5s;
             }
 
@@ -141,7 +141,7 @@
             }
 
             30%{
-                animation-fill-mode: forwards;
+                transform: translateX(-400px);
                 transition-duration: 5s;
             }
             40%{
@@ -149,7 +149,7 @@
             }
 
             50%{
-                animation-fill-mode: forwards;
+                transform: translateX(-800px);
                 transition-duration: 5s;
             }
             60%{
@@ -157,7 +157,7 @@
             }
 
             70%{
-                animation-fill-mode: forwards;
+                transform: translateX(-1200px);
                 transition-duration: 5s;
             }
             80%{
@@ -165,7 +165,7 @@
             }
 
             90%{
-                animation-fill-mode: forwards;
+                transform: translateX(-1600px);
                 transition-duration: 5s;
             }
 
