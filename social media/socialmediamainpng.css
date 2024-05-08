@@ -49,7 +49,6 @@
 
     body{
         height: 100vh;
-        width: 100vw; 
         overflow-x: hidden;   
     }
 
@@ -79,7 +78,6 @@
     }
 
      main{
-        width: 100vw;
         margin-top: 60px;
         color: white;
         overflow: unset;
@@ -107,7 +105,7 @@
     .mainpage{
         padding: 0px 0px 0px 10px;
         margin-left: 250px;
-        max-width: 100vw;
+        width: 100vw;
     }
 
     aside{
@@ -116,12 +114,16 @@
         margin-bottom: 30px;
         
     }
+    
+    .asideanim > article{
+        justify-content: space-evenly;
+    }
 
     .asideanim{
         width: 100%;
         animation: slider 20s infinite;
         animation-timing-function: ease-in-out;
-        gap: 1%;
+        gap: 20%;
     }
     
     .asideanim article:hover{
@@ -218,7 +220,7 @@
         position: absolute;
         padding: 30px 0px 0px 5px;
         color: white;
-        height: 200px;
+        height: min-content;
         width: max-content;
     }
 
@@ -229,17 +231,22 @@
     #img-overlay-gray{
         color: gray;
         font-style: italic;
-        font-size: 1em;
+        font-size: 1rem;
     }
 
     .posts{
+        width: 100%;
+        max-width: 99vw;
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        gap: 0.3%;
     }
 
-    .posts > article{
-        margin-right: 60px;
+    .hidecontent{
+        margin-bottom: 0.4%;
+        width: 100%;
+        max-width: 250px;
     }
 
     .hidecontent > div{
@@ -254,21 +261,27 @@
     .postimg{
         object-fit: cover;
         position: absolute;
-        width: 200px;
+        width: 100%;
+        max-width: 250px;
         height: 200px;
         border-radius: 5px;
     }
 
     .postimg-overlay{
         display: flex;
+        flex-wrap: nowrap;
         flex-direction: column;
         justify-content: space-between;
         position: relative;
         padding: 5px 0px 0px 5px;
         color: white;
-        height: 190px;
-        width: 190px;
-        width: max-content;
+        height: 200px;
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .postimg-overlay:nth-child(2){
+        width: 200px;
     }
 
     .postimg-overlay:hover{
