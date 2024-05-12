@@ -1,0 +1,139 @@
+/* colors: #800020  #000000 */
+    .colors {
+        background-color: white;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-align: center;
+        margin: 20px;
+      }
+      
+      .colors > a {
+        color: azure;
+        margin: 20px;
+      }
+
+    .colors > i {
+        color: #800020;
+      }
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .label {
+    color: white;
+    background-color: rgb(128, 0, 32, 0.5);
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+
+body {
+    width: 100vw;
+    height: calc(100vh + 100px);
+    overflow-x: hidden;
+  }
+
+  header{
+    margin-top: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  #searchbar {
+    border: solid 2px gray;
+    border-radius: 20px;
+    width: 95%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+  }
+
+  nav {
+    height: 100%;
+    margin: 0px;
+  }
+
+  .navline {
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px gray solid;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+
+  footer     {  
+    position:fixed;
+    top: 90vh;
+    left: 25vw;
+    width: 50vw;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+    background-color: #800020;
+    border-radius: 100px;
+  }
+
+  footer > i{
+    color: white;
+  }
+
+  footer > a:link,
+  footer > a:visited, 
+  footer > a:hover { 
+    text-decoration: none;
+    color: white; 
+  } 
+
+  footer > a:active { 
+    text-decoration: none; 
+    color: white; 
+    font-size: x-large;
+  }
+  
+
+  footer > i:hover,
+  footer > i:active,
+  footer > i:focus,
+  footer > i:visited {
+    pointer-events: all;
+    background-color: #800020;
+    color: white;
+    border: none;
+    font-size: x-large;
+  }
+
+  footer > button{
+    display: none;
+  }
+
+  .bi-search{
+    font-size: x-large;
+  }
