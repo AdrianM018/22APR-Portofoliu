@@ -1,0 +1,33 @@
+:root{
+
+    /* colors */
+    --light-shades: #FBFAF4;
+    --light-accent: #C8B65A;
+    --main-brand-color: #7FB7D2;
+    --dark-accent: #7FB7D2;
+    --dark-shades: #3A7CE6;
+
+    /* gradient */
+    --background-gradient: linear-gradient(to right bottom, #3a7ce6, #547be2, #6779dd, #7678d8, #8277d3, #a573c9, #bf6fbc, #d36eac, #ec748b, #ef866d, #e29e59, #c8b65a);
+
+    /* background */
+
+    --background-light-shades: var(--light-shades);
+    --background-light-accent: var(--light-accent);
+    --background-main-brand-color: var(--main-brand-color);
+    --background-dark-accent: var(--dark-accent);
+    --background-dark-shades: var(--dark-shades);
+
+    /* unit size */
+    
+    --unit-rem-0: 0.5rem;
+    --unit-rem-1: 1rem;
+    --unit-rem-2: 2rem;
+    --unit-rem-3: 3rem;
+    --unit-rem-4: 4rem;
+    --unit-px-0: 10px;
+    --unit-px-1: 20px;
+    --unit-px-2: 30px;
+    --unit-px-3: 40px;
+    --unit-px-4: 50px;
+}

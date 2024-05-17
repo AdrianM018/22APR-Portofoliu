@@ -1,0 +1,42 @@
+.f-width {
+  width: 100vw;
+}
+.h-height {
+  height: 100vh;
+}
+
+/* width */
+
+.width-o {
+  width: var(--unit-px-0);
+}
+.width-1 {
+  width: var(--unit-px-1);
+}
+.width-2 {
+  width: var(--unit-px-2);
+}
+.width-3 {
+  width: var(--unit-px-3);
+}
+.width-4 {
+  width: var(--unit-px-4);
+}
+
+/* height */
+
+.height-o {
+  height: var(--unit-px-0);
+}
+.height-1 {
+  height: var(--unit-px-1);
+}
+.height-2 {
+  height: var(--unit-px-2);
+}
+.height-3 {
+  height: var(--unit-px-3);
+}
+.height-4 {
+  height: var(--unit-px-4);
+}
