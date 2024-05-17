@@ -31,8 +31,8 @@
     }
 
     .c-section1{
-        border-top-left-radius: calc(var(--unit-px-4)*100);
-        border-top-right-radius: calc(var(--unit-px-4)*100);
+        border-top-left-radius: calc(var(--unit-px-4)*4);
+        border-top-right-radius: calc(var(--unit-px-4)*4);
     }
 
 }
