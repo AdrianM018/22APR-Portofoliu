@@ -21,6 +21,28 @@
     font-weight:bolder;
 }
 
+/* font styles */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-underline{
+  text-decoration:underline;
+}
+
+.text-italic{
+  font-style: italic;
+}
+
 /* colors */
 .txt-light-shades {
   color: var(--light-shades);
@@ -114,19 +136,10 @@
 .text-right {
   text-align: right;
 }
+.text-down {
+  text-align:end;
+}
 
 .text-justify {
   text-align: justify;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
 }

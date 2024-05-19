@@ -50,3 +50,7 @@
   .is-bottom{
     align-items: flex-end;
   }
+
+  .flex-column-gap{
+    column-gap: 0px;
+  }

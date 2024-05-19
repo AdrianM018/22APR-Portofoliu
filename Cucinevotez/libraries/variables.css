@@ -20,14 +20,14 @@
 
     /* unit size */
     
-    --unit-rem-0: 0.5rem;
-    --unit-rem-1: 1rem;
-    --unit-rem-2: 2rem;
-    --unit-rem-3: 3rem;
-    --unit-rem-4: 4rem;
-    --unit-px-0: 10px;
-    --unit-px-1: 20px;
-    --unit-px-2: 30px;
-    --unit-px-3: 40px;
-    --unit-px-4: 50px;
+    --unit-rem-0: 2rem;
+    --unit-rem-1: 4rem;
+    --unit-rem-2: 6rem;
+    --unit-rem-3: 8rem;
+    --unit-rem-4: 10rem;
+    --unit-px-0: 20px;
+    --unit-px-1: 40px;
+    --unit-px-2: 60px;
+    --unit-px-3: 80px;
+    --unit-px-4: 100px;
 }
