@@ -37,9 +37,19 @@
         grid-template-rows: repeat(3, 1fr);
     }
 
+    .customgrid_maintop{
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 100px 400px;
+    }
+
+    .grid-news{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 1fr 2fr;
+    }
+
     img {
-    border-top-left-radius: calc(var(--unit-px-4)*3);
-    border-top-right-radius: calc(var(--unit-px-4)*3);
+    border-top-left-radius: var(--unit-px-4);
+    border-top-right-radius: var(--unit-px-4);
     }
 
 }
