@@ -28,10 +28,6 @@
         left: 0;
     }
 
-    main{
-        margin-top: calc(var(--unit-px-4)*2);
-    }
-
     .custom-grid{
         grid-template-columns: 20% 1fr 20%;
         grid-template-rows: repeat(3, 1fr);
@@ -39,11 +35,11 @@
 
     .customgrid_maintop{
         grid-template-columns: 100%;
-        grid-template-rows: 400px 100px 400px;
+        grid-template-rows: 600px 600px;
     }
 
     .grid-news{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 100px 1fr 2fr;
     }
 
