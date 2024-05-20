@@ -35,7 +35,7 @@
 
     .customgrid_maintop{
         grid-template-columns: 100%;
-        grid-template-rows: 600px 600px;
+        grid-template-rows: 600px 700px;
     }
 
     .grid-news{
@@ -43,9 +43,10 @@
         grid-template-rows: 100px 1fr 2fr;
     }
 
-    img {
-    border-top-left-radius: var(--unit-px-4);
-    border-top-right-radius: var(--unit-px-4);
+    .custom-grid-s3{
+        height: 700px;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 1fr 2fr 2fr;
     }
 
 }

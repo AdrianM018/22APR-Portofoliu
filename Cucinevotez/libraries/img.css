@@ -21,6 +21,11 @@
     max-width: 200px;
 }
 
+.corner-roudness{
+    border-top-left-radius: var(--unit-px-4);
+    border-top-right-radius: var(--unit-px-4);
+}
+
 .img-brightness{
     filter: brightness(25%);
 }
