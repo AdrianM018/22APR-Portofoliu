@@ -5,19 +5,19 @@
   /* General padding */
 
   .p-o {
-    padding: var(--unit-rem-0);
+    padding: var(--unit-px-0);
   }
   .p-1 {
-    padding: var(--unit-rem-1);
+    padding: var(--unit-px-1);
   }
   .p-2 {
-    padding: var(--unit-rem-2);
+    padding: var(--unit-px-2);
   }
   .p-3 {
-    padding: var(--unit-rem-3);
+    padding: var(--unit-px-3);
   }
   .p-4 {
-    padding: var(--unit-rem-4);
+    padding: var(--unit-px-4);
   }
 
   /*           Padding Y Axis           */
@@ -43,7 +43,7 @@
     padding-bottom: var(--unit-rem-4);
   }
 
-  /*           Padding Y Axis           */
+  /*           Padding X Axis           */
 
   .px-o {
     padding-left: var(--unit-rem-0);

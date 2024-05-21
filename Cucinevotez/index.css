@@ -8,16 +8,36 @@
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
-
+header{
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
-
+header{
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /* Larger than tablet */
 @media (min-width: 750px) {}
-
+header{
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /* Larger than desktop */
 @media (min-width: 1000px) {}
-
+header{
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 

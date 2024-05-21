@@ -3,12 +3,9 @@
     /* colors */
     --light-shades: #FBFAF4;
     --light-accent: #C8B65A;
-    --main-brand-color: #7FB7D2;
-    --dark-accent: #7FB7D2;
-    --dark-shades: #3A7CE6;
 
     /* gradient */
-    --background-gradient: linear-gradient(to right bottom, #3a7ce6, #547be2, #6779dd, #7678d8, #8277d3, #a573c9, #bf6fbc, #d36eac, #ec748b, #ef866d, #e29e59, #c8b65a);
+    --background-gradient: linear-gradient(to right bottom, #511752, #6b1052, #83024e, #990045, #ab0038);;
 
     /* background */
 

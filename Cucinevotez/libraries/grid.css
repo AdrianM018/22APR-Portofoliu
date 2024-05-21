@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.align_grid-s{
+    align-items: start;
+}
+
 .justify-grid-c{
     justify-items: center;
 }

@@ -50,15 +50,6 @@
 .txt-light-accent {
   color: var(--light-accent);
 }
-.txt-main-brand-color {
-  color: var(--main-brand-color);
-}
-.txt-dark-accent {
-  color: var(--dark-accent);
-}
-.txt-dark-shades {
-  color: var(--dark-shades);
-}
 
 /* background color */
 
@@ -67,15 +58,6 @@
 }
 .bck-light-accent {
   background-color: var(--light-accent);
-}
-.bck-main-brand-color {
-  background-color: var(--main-brand-color);
-}
-.bck-dark-accent {
-  background-color: var(--dark-accent);
-}
-.bck-dark-shades {
-  background-color: var(--dark-shades);
 }
 .bck-gradient {
   background-image: var(--background-gradient);
