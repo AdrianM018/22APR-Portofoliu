@@ -48,6 +48,15 @@ header{
         left: 0;
     }
 
+    summary {
+        list-style-type: none;
+      }
+      
+      summary::-webkit-details-marker {
+        display: none;
+      }
+      
+
     .custom-grid{
         grid-template-columns: 20% 1fr 20%;
         grid-template-rows: repeat(3, 1fr);
