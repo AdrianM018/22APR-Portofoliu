@@ -85,6 +85,13 @@
     grid-row-end: 2;
 }
 
+.grid1512{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
 .grid2314{
     grid-column-start: 2;
     grid-column-end: 3;

@@ -20,6 +20,31 @@
     padding: var(--unit-px-4);
   }
 
+  .p-3xs-2xs {
+    padding: var(--space-3xs-2xs);
+  }
+  .p-2xs-xs {
+    padding: var(--space-2xs-xs);
+  }
+  .p-xs-s {
+    padding: var(--space-xs-s);
+  }
+  .p-s-m {
+    padding: var(--space-s-m);
+  }
+  .p-m-l {
+    padding: var(--space-m-l);
+  }
+  .p-l-xl {
+    padding: var(--space-l-xl);
+  }
+  .p-xl-2xl{
+    padding: var(--space-xl-2xl);
+  }
+  .p-2xl-3xl {
+    padding: var(--space-2xl-3xl);
+  }
+
   /*           Padding Y Axis           */
 
   .py-o {
@@ -158,6 +183,31 @@
   }
   .m-4 {
     margin: var(--unit-rem-4);
+  }
+
+  .m-3xs-2xs {
+    margin: var(--space-3xs-2xs);
+  }
+  .m-2xs-xs {
+    margin: var(--space-2xs-xs);
+  }
+  .m-xs-s {
+    margin: var(--space-xs-s);
+  }
+  .m-s-m {
+    margin: var(--space-s-m);
+  }
+  .m-m-l {
+    margin: var(--space-m-l);
+  }
+  .m-l-xl {
+    margin: var(--space-l-xl);
+  }
+  .m-xl-2xl{
+    margin: var(--space-xl-2xl);
+  }
+  .m-2xl-3xl {
+    margin: var(--space-2xl-3xl);
   }
 
   /*           margin Y Axis           */

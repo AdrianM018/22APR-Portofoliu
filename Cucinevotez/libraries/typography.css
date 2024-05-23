@@ -43,6 +43,14 @@
   font-style: italic;
 }
 
+.l-height-t{
+  line-height: 1.3;
+}
+
+.l-height-p{
+  line-height: 1;
+}
+
 /* colors */
 .txt-light-shades {
   color: var(--light-shades);
@@ -79,6 +87,25 @@
 }
 .unit-rem-4 {
   font-size: var(--unit-rem-4);
+}
+
+.test-unit-0{
+  font-size: var(--UNITtxt-0);
+}
+.test-unit-1{
+  font-size: var(--UNITtxt-1);
+}
+.test-unit-2{
+  font-size: var(--UNITtxt-2);
+}
+.test-unit-3{
+  font-size: var(--UNITtxt-3);
+}
+.test-unit-4{
+  font-size: var(--UNITtxt-4);
+}
+.test-unit-5{
+  font-size: var(--UNITtxt-5);
 }
 
 .unit-px-o {

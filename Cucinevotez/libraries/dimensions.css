@@ -39,6 +39,31 @@
   width: var(--unit-px-4);
 }
 
+.width-3xs-2xs {
+  width: var(--space-3xs-2xs);
+}
+.width-2xs-xs {
+  width: var(--space-2xs-xs);
+}
+.width-xs-s {
+  width: var(--space-xs-s);
+}
+.width-s-m {
+  width: var(--space-s-m);
+}
+.width-m-l {
+  width: var(--space-m-l);
+}
+.width-l-xl {
+  width: var(--space-l-xl);
+}
+.width-xl-2xl{
+  width: var(--space-xl-2xl);
+}
+.width-2xl-3xl {
+  width: var(--space-2xl-3xl);
+}
+
 /* height */
 
 .height-o {
