@@ -5,6 +5,7 @@
 @import url(./libraries/box.css);
 @import url(./libraries/img.css);
 @import url(./libraries/grid.css);
+@import url(./libraries/display.css);
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
@@ -37,20 +38,6 @@ header{
     top: 0;
     right: 0;
     left: 0;
-}
-
-
-summary {
-    list-style-type: none;
-  }
-  
-  summary::-webkit-details-marker {
-    display: none;
-  }
-
-  .customgrid_maintop{
-    grid-template-columns: 100%;
-    grid-template-rows: 600px 700px;
 }
 
 

@@ -11,8 +11,7 @@
 }
 
 .q-dim{
-  width: 25%;
-  height: 25%;
+  flex: 1 1 0;
 }
 
 .gen-dim-sec{
@@ -80,4 +79,29 @@
 }
 .height-4 {
   height: var(--unit-px-4);
+}
+
+.height-3xs-2xs {
+  height: var(--space-3xs-2xs);
+}
+.height-2xs-xs {
+  height: var(--space-2xs-xs);
+}
+.height-xs-s {
+  height: var(--space-xs-s);
+}
+.height-s-m {
+  height: var(--space-s-m);
+}
+.height-m-l {
+  height: var(--space-m-l);
+}
+.height-l-xl {
+  height: var(--space-l-xl);
+}
+.height-xl-2xl{
+  height: var(--space-xl-2xl);
+}
+.height-2xl-3xl {
+  height: var(--space-2xl-3xl);
 }

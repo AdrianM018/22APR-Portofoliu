@@ -89,22 +89,22 @@
   font-size: var(--unit-rem-4);
 }
 
-.test-unit-0{
+.c-0{
   font-size: var(--UNITtxt-0);
 }
-.test-unit-1{
+.txt-size-1{
   font-size: var(--UNITtxt-1);
 }
-.test-unit-2{
+.txt-size-2{
   font-size: var(--UNITtxt-2);
 }
-.test-unit-3{
+.txt-size-3{
   font-size: var(--UNITtxt-3);
 }
-.test-unit-4{
+.txt-size-4{
   font-size: var(--UNITtxt-4);
 }
-.test-unit-5{
+.txt-size-5{
   font-size: var(--UNITtxt-5);
 }
 

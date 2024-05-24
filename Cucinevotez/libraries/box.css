@@ -212,25 +212,37 @@
 
   /*           margin Y Axis           */
 
-  .my-o {
-    margin-top: var(--unit-rem-0);
-    margin-bottom: var(--unit-rem-0);
+  .mY-3xs-2xs {
+    margin-top: var(--space-3xs-2xs);
+    margin-bottom: var(--space-3xs-2xs);
   }
-  .my-1 {
-    margin-top: var(--unit-rem-1);
-    margin-bottom: var(--unit-rem-1);
+  .mY-2xs-xs {
+    margin-top: var(--space-2xs-xs);
+    margin-bottom: var(--space-2xs-xs);
   }
-  .my-2 {
-    margin-top: var(--unit-rem-2);
-    margin-bottom: var(--unit-rem-2);
+  .mY-xs-s {
+    margin-top: var(--space-xs-s);
+    margin-bottom: var(--space-xs-s);
   }
-  .my-3 {
-    margin-top: var(--unit-rem-3);
-    margin-bottom: var(--unit-rem-3);
+  .mY-s-m {
+    margin-top: var(--space-s-m);
+    margin-bottom: var(--space-s-m);
   }
-  .my-4 {
-    margin-top: var(--unit-rem-4);
-    margin-bottom: var(--unit-rem-4);
+  .mY-m-l {
+    margin-top: var(--space-m-l);
+    margin-bottom: var(--space-m-l);
+  }
+  .mY-l-xl {
+    margin-top: var(--space-l-xl);
+    margin-bottom: var(--space-l-xl);
+  }
+  .mY-xl-2xl{
+    margin-top: var(--space-xl-2xl);
+    margin-bottom: var(--space-xl-2xl);
+  }
+  .mY-2xl-3xl {
+    margin-top: var(--space-2xl-3xl);
+    margin-bottom: var(--space-2xl-3xl);
   }
 
   /*           margin x Axis           */

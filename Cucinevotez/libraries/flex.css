@@ -15,6 +15,10 @@
     flex-wrap: nowrap;
 }
 
+.flex-basis{
+  flex: 0 1 auto;
+}
+
 .is-vertical-align {
     align-items: center;
   }
