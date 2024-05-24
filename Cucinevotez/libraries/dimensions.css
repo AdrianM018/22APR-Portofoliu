@@ -22,22 +22,6 @@
 
 /* width */
 
-.width-o {
-  width: var(--unit-px-0);
-}
-.width-1 {
-  width: var(--unit-px-1);
-}
-.width-2 {
-  width: var(--unit-px-2);
-}
-.width-3 {
-  width: var(--unit-px-3);
-}
-.width-4 {
-  width: var(--unit-px-4);
-}
-
 .width-3xs-2xs {
   width: var(--space-3xs-2xs);
 }

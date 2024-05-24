@@ -73,22 +73,6 @@
 
 /* size */
 
-.unit-rem-o {
-  font-size: var(--unit-rem-0);
-}
-.unit-rem-1 {
-  font-size: var(--unit-rem-1);
-}
-.unit-rem-2 {
-  font-size: var(--unit-rem-2);
-}
-.unit-rem-3 {
-  font-size: var(--unit-rem-3);
-}
-.unit-rem-4 {
-  font-size: var(--unit-rem-4);
-}
-
 .c-0{
   font-size: var(--UNITtxt-0);
 }
@@ -106,22 +90,6 @@
 }
 .txt-size-5{
   font-size: var(--UNITtxt-5);
-}
-
-.unit-px-o {
-  font-size: var(--unit-px-0);
-}
-.unit-px-1 {
-  font-size: var(--unit-px-1);
-}
-.unit-px-2 {
-  font-size: var(--unit-px-2);
-}
-.unit-px-3 {
-  font-size: var(--unit-px-3);
-}
-.unit-px-4 {
-  font-size: var(--unit-px-4);
 }
 
 /* Position & alignment */

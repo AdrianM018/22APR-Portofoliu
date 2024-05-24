@@ -16,7 +16,7 @@
 }
 
 .flex-basis{
-  flex: 0 1 auto;
+  flex-shrink: 0;
 }
 
 .is-vertical-align {
