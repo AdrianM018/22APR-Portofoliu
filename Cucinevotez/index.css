@@ -6,25 +6,28 @@
 @import url(./libraries/img.css);
 @import url(./libraries/grid.css);
 @import url(./libraries/display.css);
+@import url(./libraries/overflow.css);
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media screen and (min-width: 300px){}
 header{
     z-index: 9999;
     top: 0;
     right: 0;
     left: 0;
 }
+
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media screen and (min-width: 750px)  {}
 header{
     z-index: 9999;
     top: 0;
     right: 0;
     left: 0;
 }
+
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px)  and (max-width: 1000px){}
 header{
     z-index: 9999;
     top: 0;
@@ -61,12 +64,12 @@ header{
 
       .customgrid_maintop{
         grid-template-columns: 100%;
-        grid-template-rows: 600px 700px;
+        grid-template-rows: 650px 700px;
     }
       
 
     .custom-grid{
-        grid-template-columns: 20% 1fr 20%;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(3, 1fr);
     }
 
