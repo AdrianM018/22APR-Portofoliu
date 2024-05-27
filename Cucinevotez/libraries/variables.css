@@ -67,4 +67,6 @@
   --bck-gen-img: clamp(200px, 57.1429px + 44.6429cqi, 700px);
   --sum-size: clamp(6.25rem, -6.7935rem + 65.2174vi, 43.75rem);
   --maintitle: clamp(1.25rem, -0.2717rem + 7.6087vi, 5.625rem);
+  --navbuttons: clamp(50px, -15.6522px + 17.3913vi, 200px);
+  --txtnav: clamp(6px, 0.087px + 1.8478vi, 23px);
 }

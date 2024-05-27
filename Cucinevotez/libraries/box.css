@@ -416,27 +416,32 @@
 }
 /* #endregion */
 
-/*           margin Bottom           */
-
-.mbt-o {
-  margin-bottom: var(--unit-rem-0);
+/* #region - Margin Bottom */
+.mbot-3xs-2xs {
+  margin-bottom: var(--space-3xs-2xs);
 }
-
-.mbt-1 {
-  margin-bottom: var(--unit-rem-1);
+.mbot-2xs-xs {
+  margin-bottom: var(--space-2xs-xs);
 }
-
-.mbt-2 {
-  margin-bottom: var(--unit-rem-2);
+.mbot-xs-s {
+  margin-bottom: var(--space-xs-s);
 }
-
-.mbt-3 {
-  margin-bottom: var(--unit-rem-3);
+.mbot-s-m {
+  margin-bottom: var(--space-s-m);
 }
-
-.mbt-4 {
-  margin-bottom: var(--unit-rem-4);
+.mbot-m-l {
+  margin-bottom: var(--space-m-l);
 }
+.mbot-l-xl {
+  margin-bottom: var(--space-l-xl);
+}
+.mbot-xl-2xl {
+  margin-bottom: var(--space-xl-2xl);
+}
+.mbot-2xl-3xl {
+  margin-bottom: var(--space-2xl-3xl);
+}
+/* #endregion */
 
 /*            margin Right           */
 
@@ -585,42 +590,43 @@
   border-radius: var(--space-2xl-3xl);
 }
 
-.br-tl-o {
-  border-top-left-radius: var(--unit-px-0);
+
+.brtop-3xs-2xs {
+  border-top-left-radius: var(--space-3xs-2xs);
+  border-top-right-radius: var(--space-3xs-2xs);
 }
 
-.br-tl-1 {
-  border-top-left-radius: var(--unit-px-1);
+.brtop-2xs-xs {
+  border-top-left-radius: var(--space-2xs-xs);
+  border-top-right-radius: var(--space-2xs-xs);
 }
 
-.br-tl-2 {
-  border-top-left-radius: var(--unit-px-2);
+.brtop-xs-s {
+  border-top-left-radius: var(--space-xs-s);
+  border-top-right-radius: var(--space-xs-s);
 }
 
-.br-tl-3 {
-  border-top-left-radius: var(--unit-px-3);
+.brtop-s-m {
+  border-top-left-radius: var(--space-s-m);
+  border-top-right-radius: var(--space-s-m);
 }
 
-.br-tl-4 {
-  border-top-left-radius: var(--unit-px-4);
+.brtop-m-l {
+  border-top-left-radius: var(--space-m-l);
+  border-top-right-radius: var(--space-m-l);
 }
 
-.br-tr-o {
-  border-top-right-radius: var(--unit-px-0);
+.brtop-l-xl {
+  border-top-left-radius: var(--space-l-xl);
+  border-top-right-radius: var(--space-l-xl);
 }
 
-.br-tr-1 {
-  border-top-right-radius: var(--unit-px-1);
+.brtop-xl-2xl {
+  border-top-left-radius: var(--space-xl-2xl);
+  border-top-right-radius: var(--space-xl-2xl);
 }
 
-.br-tr-2 {
-  border-top-right-radius: var(--unit-px-2);
-}
-
-.br-tr-3 {
-  border-top-right-radius: var(--unit-px-3);
-}
-
-.br-tr-4 {
-  border-top-right-radius: var(--unit-px-4);
+.brtop-2xl-3xl {
+  border-top-left-radius: var(--space-2xl-3xl);
+  border-top-right-radius: var(--space-2xl-3xl);
 }

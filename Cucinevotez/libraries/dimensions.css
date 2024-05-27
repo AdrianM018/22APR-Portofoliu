@@ -48,22 +48,6 @@
 
 /* height */
 
-.height-o {
-  height: var(--unit-px-0);
-}
-.height-1 {
-  height: var(--unit-px-1);
-}
-.height-2 {
-  height: var(--unit-px-2);
-}
-.height-3 {
-  height: var(--unit-px-3);
-}
-.height-4 {
-  height: var(--unit-px-4);
-}
-
 .height-3xs-2xs {
   height: var(--space-3xs-2xs);
 }
