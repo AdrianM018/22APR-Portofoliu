@@ -6,7 +6,7 @@ object-fit: cover;
 
 .f-img-max{
     width: 100%;
-    max-width: 350px;
+    /* max-width: var(--icon-gen-img); */
     height: 100%;
     object-fit: contain;
 }

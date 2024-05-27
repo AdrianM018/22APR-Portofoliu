@@ -1,24 +1,24 @@
 @import url(./variables.css);
 
 /* links  */
-.links{
-    text-decoration: none;
-    color: var(--light-shades);
+.links {
+  text-decoration: none;
+  color: var(--light-shades);
 }
 
 /* font weight */
 
-.font-weight1{
-    font-weight: 400;
+.font-weight1 {
+  font-weight: 400;
 }
-.font-weight2{
-    font-weight: 500;
+.font-weight2 {
+  font-weight: 500;
 }
-.font-weight3{
-    font-weight: bold;
+.font-weight3 {
+  font-weight: bold;
 }
-.font-weight4{
-    font-weight:bolder;
+.font-weight4 {
+  font-weight: bolder;
 }
 
 /* font styles */
@@ -35,19 +35,24 @@
   text-transform: capitalize;
 }
 
-.text-underline{
-  text-decoration:underline;
+.text-underline {
+  text-decoration: underline;
 }
 
-.text-italic{
+.text-italic {
   font-style: italic;
 }
 
-.l-height-t{
+.text-orientation {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+}
+
+.l-height-t {
   line-height: 1.3;
 }
 
-.l-height-p{
+.l-height-p {
   line-height: 1;
 }
 
@@ -71,28 +76,38 @@
   background-image: var(--background-gradient);
 }
 
-/* size */
+/* #region - text size */
+.txts-3xs-2xs {
+  font-size: var(--space-3xs-2xs);
+}
+.txts-2xs-xs {
+  font-size: var(--space-2xs-xs);
+}
+.txts-xs-s {
+  font-size: var(--space-xs-s);
+}
+.txts-s-m {
+  font-size: var(--space-s-m);
+}
+.txts-m-l {
+  font-size: var(--space-m-l);
+}
+.txts-l-xl {
+  font-size: var(--space-l-xl);
+}
+.txts-xl-2xl {
+  font-size: var(--space-xl-2xl);
+}
+.txts-2xl-3xl {
+  font-size: var(--space-2xl-3xl);
+}
 
-.txt-size-0{
-  font-size: var(--UNITtxt-0);
+.txt-special{
+  font-size: var(--maintitle);
 }
-.txt-size-1{
-  font-size: var(--UNITtxt-1);
-}
-.txt-size-2{
-  font-size: var(--UNITtxt-2);
-}
-.txt-size-3{
-  font-size: var(--UNITtxt-3);
-}
-.txt-size-4{
-  font-size: var(--UNITtxt-4);
-}
-.txt-size-5{
-  font-size: var(--UNITtxt-5);
-}
+/* #endregion */
 
-/* Position & alignment */
+/* #region - Position & alignment */
 .pull-right {
   float: right;
 }
@@ -102,7 +117,7 @@
 }
 
 .pull-down {
-  float: inline-end;
+  float: end;
 }
 
 .text-center {
@@ -117,9 +132,10 @@
   text-align: right;
 }
 .text-down {
-  text-align:end;
+  text-align: end;
 }
 
 .text-justify {
   text-align: justify;
 }
+/* #endregion */
