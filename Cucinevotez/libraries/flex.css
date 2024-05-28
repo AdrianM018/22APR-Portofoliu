@@ -1,60 +1,114 @@
-.flex-row{
-    display: flex;
-    flex-direction: row;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
-.flex-column{
-    display: flex;
-    flex-direction: column;
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
-.wrap{
-    flex-wrap: wrap;
+.wrap {
+  flex-wrap: wrap;
 }
-.nowrap{
-    flex-wrap: nowrap;
+.nowrap {
+  flex-wrap: nowrap;
 }
 
-.flex-basis{
+.flex-basis {
   flex-shrink: 0;
 }
 
 .is-vertical-align {
-    align-items: center;
-  }
-  
-  .is-horizontal-align {
-    justify-content: center;
-  }
-  .is-space-evenly {
-    justify-content: space-evenly;
-  }
-  .is-space-between {
-    justify-content: space-between;
-  }
-  .is-space-around {
-    justify-content: space-around;
-  }
-  
-  .is-center {
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .is-right {
-    align-items: center;
-    justify-content: flex-end;
-  }
-  
-  .is-left {
-    align-items: center;
-    justify-content: flex-start;
-  }
+  align-items: center;
+}
 
-  .is-bottom{
-    align-items: flex-end;
-  }
+.is-horizontal-align {
+  justify-content: center;
+}
+.is-space-evenly {
+  justify-content: space-evenly;
+}
+.is-space-between {
+  justify-content: space-between;
+}
+.is-space-around {
+  justify-content: space-around;
+}
 
-  .flex-column-gap{
-    column-gap: 0px;
-  }
+.is-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.is-right {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.is-left {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.is-bottom {
+  align-items: flex-end;
+}
+
+.flex-column-gap {
+  column-gap: 0px;
+}
+
+/* #region - max  width */
+.maxwidth-3xs-2xs {
+  max-width: var(--space-3xs-2xs);
+}
+.maxwidth-2xs-xs {
+  max-width: var(--space-2xs-xs);
+}
+.maxwidth-xs-s {
+  max-width: var(--space-xs-s);
+}
+.maxwidth-s-m {
+  max-width: var(--space-s-m);
+}
+.maxwidth-m-l {
+  max-width: var(--space-m-l);
+}
+.maxwidth-l-xl {
+  max-width: var(--space-l-xl);
+}
+.maxwidth-xl-2xl {
+  max-width: var(--space-xl-2xl);
+}
+.maxwidth-2xl-3xl {
+  max-width: var(--space-2xl-3xl);
+}
+/* #endregion */
+
+/* #region - Max Height */
+.maxheight-3xs-2xs {
+  max-height: var(--space-3xs-2xs);
+}
+.maxheight-2xs-xs {
+  max-height: var(--space-2xs-xs);
+}
+.maxheight-xs-s {
+  max-height: var(--space-xs-s);
+}
+.maxheight-s-m {
+  max-height: var(--space-s-m);
+}
+.maxheight-m-l {
+  max-height: var(--space-m-l);
+}
+.maxheight-l-xl {
+  max-height: var(--space-l-xl);
+}
+.maxheight-xl-2xl {
+  max-height: var(--space-xl-2xl);
+}
+.maxheight-2xl-3xl {
+  max-height: var(--space-2xl-3xl);
+}
+/* #endregion */
