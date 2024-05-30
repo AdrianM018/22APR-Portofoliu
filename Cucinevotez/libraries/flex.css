@@ -18,6 +18,9 @@
 .flex-basis {
   flex-shrink: 0;
 }
+.flex-shrink {
+  flex-shrink: 1;
+}
 
 .is-vertical-align {
   align-items: center;
@@ -57,6 +60,9 @@
 
 .flex-column-gap {
   column-gap: 0px;
+}
+.flex-row-gap {
+  column-gap: var(--space-xs-s);
 }
 
 /* #region - max  width */

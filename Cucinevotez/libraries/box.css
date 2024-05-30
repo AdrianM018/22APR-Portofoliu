@@ -493,7 +493,7 @@
 }
 
 .bd-light-shades {
-  border: 3px solid var(--light-shades);
+  border: 1px solid var(--light-shades);
 }
 
 .bd-light-accent {

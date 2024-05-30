@@ -69,4 +69,5 @@
   --maintitle: clamp(1.25rem, -0.2717rem + 7.6087vi, 5.625rem);
   --navbuttons: clamp(50px, -15.6522px + 17.3913vi, 200px);
   --txtnav: clamp(6px, 0.087px + 1.8478vi, 23px);
+  
 }
