@@ -65,6 +65,7 @@
   /* Special Sizes */
   --icon-gen-img: clamp(55px, -36.5714px + 16.4286cqi, 200px);
   --bck-gen-img: clamp(200px, 57.1429px + 44.6429cqi, 700px);
+  --halfbck-gen-img: clamp(300px, 57.1429px + 44.6429cqi, 700px);
   --sum-size: clamp(6.25rem, -6.7935rem + 65.2174vi, 43.75rem);
   --maintitle: clamp(1.25rem, -0.2717rem + 7.6087vi, 5.625rem);
   --navbuttons: clamp(50px, -15.6522px + 17.3913vi, 200px);

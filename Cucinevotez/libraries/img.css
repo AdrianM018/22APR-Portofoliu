@@ -22,6 +22,11 @@ object-fit: cover;
     max-height: var(--bck-gen-img);
 }
 
+.gen-img50{
+    width: 50%;
+    height: var(--halfbck-gen-img);
+}
+
 .gen-icon{
     width: 100%;
     height: 100%;
