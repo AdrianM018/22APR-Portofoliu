@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locale</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="library.css" />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="font">
+    <header
+      class="height-3 fixed flex-column nowrap is-vertical-align is-space-between bck-light-accent"
+    >
+      <a href="./index.html">
+        <i
+          class="bi bi-book-half txt-light-shades txts-l-xl txt-size-3 MX-m-l"
+        ></i>
+      </a>
+      <div class="flex-row flex-row-gap" style="flex-shrink: 1">
+        <button
+          class="is-borderless text-underline font-weight3 bck-light-accent txt-light-shades"
+        >
+          <a
+            href="./index.html"
+            class="links font-weight2"
+            style="font-size: var(--txtnav)"
+            >Acasa</a
+          >
+        </button>
+        <button
+          class="is-borderless text-underline font-weight3 bck-light-accent txt-light-shades"
+        >
+          <a
+            href="./locale.html"
+            class="links font-weight2"
+            style="font-size: var(--txtnav)"
+            ><span class="display-h">Alegeri</span> Locale</a
+          >
+        </button>
+        <button
+          class="is-borderless text-underline font-weight3 bck-light-accent txt-light-shades"
+        >
+          <a
+            href="./parlamentare.html"
+            class="links font-weight2"
+            style="font-size: var(--txtnav)"
+            ><span class="display-h">Alegeri</span> parlamentare</a
+          >
+        </button>
+        <button
+          class="is-borderless text-underline font-weight3 bck-light-accent txt-light-shades"
+        >
+          <a href="" class="links font-weight2" style="font-size: var(--txtnav)"
+            ><span class="display-h">Alegeri</span> prezidentiale</a
+          >
+        </button>
+        <button
+          class="is-borderless text-underline font-weight3 bck-light-accent txt-light-shades"
+        >
+          <a href="" class="links font-weight2" style="font-size: var(--txtnav)"
+            ><span class="display-h">Alegeri</span> europarlamentare</a
+          >
+        </button>
+      </div>
+    </header>
+    <main class="mtop-2xl-3xl">
+      <img
+        src="./img/EU Parlam ent.jpg"
+        alt=" parlament"
+        loading="eager"
+        class="gen-img mbot-m-l"
+      />
+      <div
+        id="candidati partide politice"
+        class="txt-light-shades bck-light-accent p-s-m"
+      >
+        <h2 class="text-center">Candidati partide politice</h2>
+      </div>
+      <section class="mY-xl-2xl" style="font-size: var(--txtnav)">
+        <table class="bd-light-accent" style="width: 100%">
+          <thead>
+            <tr class="bd-light-accent px-s-m">
+              <th
+                class="bd-light-accent sorting bd-light-accent px-s-m"
+                tabindex="0"
+                aria-controls="tablepress-12"
+                rowspan="1"
+                colspan="1"
+                aria-label="Nr. crt. : activate to sort column ascending"
+                style="width: 20.9375px"
+              >
+                Nr. crt.
+              </th>
+              <th
+                class="bd-light-accent sorting bd-light-accent px-s-m"
+                tabindex="0"
+                aria-controls="tablepress-12"
+                rowspan="1"
+                colspan="1"
+                aria-label="Denumire competitor electoral: activate to sort column ascending"
+                style="width: 606.713px"
+              >
+                Denumire competitor electoral
+              </th>
+              <th
+                class="bd-light-accent sorting bd-light-accent px-s-m"
+                tabindex="0"
+                aria-controls="tablepress-12"
+                rowspan="1"
+                colspan="1"
+                aria-label="Listă candidați: activate to sort column ascending"
+                style="width: 159.525px"
+              >
+                Listă candidați
+              </th>
+              <th
+                class="bd-light-accent sorting bd-light-accent px-s-m"
+                tabindex="0"
+                aria-controls="tablepress-12"
+                rowspan="1"
+                colspan="1"
+                aria-label="Declarații de avere și interese: activate to sort column ascending"
+                style="width: 304.825px"
+              >
+                Declarații de avere și interese
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bd-light-accent px-s-m">
+            <tr class="bd-light-accent px-s-m">
+              <td class="bd-light-accent px-s-m">1</td>
+              <td class="bd-light-accent px-s-m">ALIANȚA ELECTORALĂ PSD PNL</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_alianta_PSD_PNL.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/alianta-electorala-psd-pnl/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                ><br />
+              </td>
+            </tr>
+            <tr class="bd-light-accent px-s-m">
+              <td class="bd-light-accent px-s-m">2</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL S.O.S. ROMÂNIA</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_SOS2.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-s-o-s-romania/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                ><br />
+              </td>
+            </tr>
+            <tr class="bd-light-accent px-s-m">
+              <td class="bd-light-accent px-s-m">3</td>
+              <td class="bd-light-accent px-s-m">
+                ALIANȚA DREAPTA UNITĂ USR-PMP-FORȚA DREPTEI
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_alianta_dreapta.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/alianta-dreapta-unita-usr-pmp-forta-dreptei/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                ><br />
+              </td>
+            </tr>
+            <tr class="bd-light-accent px-s-m">
+              <td class="bd-light-accent px-s-m">4</td>
+              <td class="bd-light-accent px-s-m">ROMÂNIA SOCIALISTĂ</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_ARS.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/alianta-romania-socialista/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-6 even">
+              <td class="bd-light-accent px-s-m">5</td>
+              <td class="bd-light-accent px-s-m">ALIANȚA AUR</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_AUR.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/alianta-aur/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-7 odd">
+              <td class="bd-light-accent px-s-m">6</td>
+              <td class="bd-light-accent px-s-m">
+                PARTIDUL ALTERNATIVA DREAPTĂ
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PAA.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-alternativa-dreapta/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-8 even">
+              <td class="bd-light-accent px-s-m">7</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL DIASPORA UNITĂ</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_diaspora_unita.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-diaspora-unita/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-9 odd">
+              <td class="bd-light-accent px-s-m">8</td>
+              <td class="bd-light-accent px-s-m">
+                PARTIDUL UMANIST SOCIAL LIBERAL<br />
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PUSL.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-umanist-social-liberal/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-10 even">
+              <td class="bd-light-accent px-s-m">9</td>
+              <td class="bd-light-accent px-s-m">
+                PARTIDUL REÎNNOIM PROIECTUL EUROPEAN AL ROMÂNIEI
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_REPER.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-reinnoim-proiectul-european-al-romaniei/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-11 odd">
+              <td class="bd-light-accent px-s-m">10</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL OAMENILOR LIBERI</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_POL.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <!--  <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+            </tr>
+            <tr class="row-12 even">
+              <td class="bd-light-accent px-s-m">11</td>
+              <td class="bd-light-accent px-s-m">
+                UNIUNEA DEMOCRATĂ MAGHIARĂ DIN ROMÂNIA
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_UDMR.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/uniunea-democrata-maghiara-din-romania/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-13 odd">
+              <td class="bd-light-accent px-s-m">12</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL ROMÂNIA MARE</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PRM.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-romania-mare/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-14 even">
+              <td class="bd-light-accent px-s-m">13</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL NOUA ROMÂNIE</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PNR.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>   -->
+              </td>
+            </tr>
+            <tr class="row-15 odd">
+              <td class="bd-light-accent px-s-m">14</td>
+              <td class="bd-light-accent px-s-m">PARTIDUL PATRIOȚILOR</td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PP.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/partidul-patriotilor/"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-16 even">
+              <td class="bd-light-accent px-s-m">15</td>
+              <td class="bd-light-accent px-s-m">
+                PARTIDUL NAȚIONAL ȚĂRĂNESC MANIU-MIHALACHE
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidati_PNTMM.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Descarcă</a
+                >
+              </td>
+              <td class="bd-light-accent px-s-m">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <div
+        id="candidati partide politice"
+        class="txt-light-shades bck-light-accent p-s-m"
+      >
+        <h2 class="text-center">Candidati partide politice</h2>
+      </div>
+      <section class="mY-xl-2xl" style="font-size: var(--txtnav)">
+        <table class="bd-light-accent" style="width: 100%">
+          <thead>
+            <tr class="bd-light-accent px-s-m">
+              <th
+                class="bd-light-accent bd-light-accent"
+                tabindex="0"
+                aria-controls="tablepress-13"
+                rowspan="1"
+                colspan="1"
+                aria-label="Nr. crt.: activate to sort column ascending"
+                style="width: 60.9875px"
+              >
+                Nr. crt.
+              </th>
+              <th
+                class="bd-light-accent bd-light-accent"
+                tabindex="0"
+                aria-controls="tablepress-13"
+                rowspan="1"
+                colspan="1"
+                aria-label="Nume prenume: activate to sort column ascending"
+                style="width: 273.913px"
+              >
+                Nume prenume
+              </th>
+              <th
+                class="bd-light-accent bd-light-accent"
+                tabindex="0"
+                aria-controls="tablepress-13"
+                rowspan="1"
+                colspan="1"
+                aria-label="Cerere admitere candidatură: activate to sort column ascending"
+                style="width: 239.663px"
+                aria-sort="descending"
+              >
+                Cerere admitere candidatură
+              </th>
+              <th
+                class="bd-light-accent bd-light-accent"
+                tabindex="0"
+                aria-controls="tablepress-13"
+                rowspan="1"
+                colspan="1"
+                aria-label="Declarația de avere: activate to sort column ascending"
+                style="width: 309.362px"
+              >
+                Declarația de avere
+              </th>
+              <th
+                class="bd-light-accent bd-light-accent"
+                tabindex="0"
+                aria-controls="tablepress-13"
+                rowspan="1"
+                colspan="1"
+                aria-label="Declarația de interese: activate to sort column ascending"
+                style="width: 183.075px"
+              >
+                Declarația de interese
+              </th>
+            </tr>
+          </thead>
+          <tbody class="row-hover">
+            <tr class="row-2 even">
+              <td class="bd-light-accent">1</td>
+              <td class="bd-light-accent">JURMA PAUL-OCTAVIAN</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Jurma.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+            </tr>
+            <tr class="row-3 odd">
+              <td class="bd-light-accent">2</td>
+              <td class="bd-light-accent">PÎRVĂNESCU PAULA-MARINELA</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Pirvanescu.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I02DA01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I02DI01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-4 even">
+              <td class="bd-light-accent">3</td>
+              <td class="bd-light-accent">GHEORGHE VLAD-DAN</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Gheorghe.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I03DA01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                ><a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/05/DA_Gheorghe_Vlad_Dan_independent.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Rectificativă</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I03DI01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-5 odd">
+              <td class="bd-light-accent">4</td>
+              <td class="bd-light-accent">MUSTĂȚEA ILIE-CĂTĂLIN</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Mustatea.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+            </tr>
+            <tr class="row-6 even">
+              <td class="bd-light-accent">5</td>
+              <td class="bd-light-accent">ȘTEFĂNUȚĂ NICOLAE-BOGDĂNEL</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Stefanuta.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I05DA01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I05DI01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+            <tr class="row-7 odd">
+              <td class="bd-light-accent">6</td>
+              <td class="bd-light-accent">MÎNDRU PETRU</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Mindru.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+              <td class="bd-light-accent">
+                <!-- <a class="item--button customify-btn customify-builder-btn" href="#" target="_blank" rel="noopener">Vizualizează</a>  -->
+              </td>
+            </tr>
+            <tr class="row-8 even">
+              <td class="bd-light-accent">7</td>
+              <td class="bd-light-accent">ȘOȘOACĂ DUMITRU-SILVESTRU</td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/candidat_Sosoaca.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I07DA01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+              <td class="bd-light-accent">
+                <a
+                  class="item--button customify-btn customify-builder-btn"
+                  href="https://europarlamentare2024.bec.ro/wp-content/uploads/2024/04/I07DI01.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  >Vizualizează</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
