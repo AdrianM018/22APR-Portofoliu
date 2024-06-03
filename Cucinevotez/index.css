@@ -8,7 +8,6 @@
 @import url(./libraries/display.css);
 @import url(./libraries/overflow.css);
 @import url(./libraries/dimensions.css);
-/* @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap'); */
 
 
 @media (min-width: 1200px) {
@@ -187,9 +186,9 @@
     }
     
     .custom-grid-s3{
-        height: 100vh;
+        height: 100%;
         grid-template-columns: 40% 20% 40%;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 2fr 2fr;
     }
 
     .custom-grid-locale{
