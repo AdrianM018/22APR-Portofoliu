@@ -5,6 +5,12 @@
   height: 100vh;
 }
 
+.container40per{
+  width: 40cqi;
+  height: 100cqi;
+  max-height: var(--halfbck-gen-img);
+}
+
 @media screen and (max-width: 300px) {
 
   .qa-dim{
