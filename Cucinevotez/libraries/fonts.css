@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'fonartoregular';
+    src: url('/Cucinevotez/fonts/fonarto-webfont.woff2') format('woff2'),
+         url('/Cucinevotez/fonts/fonarto-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
