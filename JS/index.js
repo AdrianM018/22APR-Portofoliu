@@ -5,7 +5,7 @@ let ardei;
 let numarportii;
 
 document.getElementById("butoningrediente").onclick = function(){
-    let numarportii = document.getElementById("numarportii").value;
+    numarportii = document.getElementById("numarportii").value;
     spaghetti = 450 * numarportii;
     ulei = 60 * numarportii;
     usturoi = 6 * numarportii;
